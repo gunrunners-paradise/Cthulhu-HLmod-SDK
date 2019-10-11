@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cl_dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\guy\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /Ob0 /I "..\utils\vgui\include" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\dlls" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/cl_dll.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\SIERRA\Tools\cthulhu_SDK\cl_dll\readbook.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\guy\LOCALS~1\Temp\RSP21.tmp" 
+Creating temporary file "C:\DOCUME~1\guy\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib winmm.lib ../utils/vgui/lib/win32_vc6/vgui.lib wsock32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Release/client.pdb" /map:".\Release/client.map" /machine:I386 /out:".\Release\client.dll" /implib:".\Release/client.lib" 
+.\Release\ev_hldm.obj
+.\Release\hl_baseentity.obj
+.\Release\hl_events.obj
+.\Release\hl_objects.obj
+.\Release\hl_weapons.obj
+.\Release\revolver.obj
+.\Release\ammo.obj
+.\Release\ammo_secondary.obj
+.\Release\ammohistory.obj
+.\Release\cdll_int.obj
+.\Release\com_weapons.obj
+.\Release\death.obj
+.\Release\demo.obj
+.\Release\entity.obj
+.\Release\ev_common.obj
+.\Release\events.obj
+.\Release\flashlight.obj
+.\Release\geiger.obj
+.\Release\health.obj
+.\Release\hud.obj
+.\Release\hud_msg.obj
+.\Release\hud_redraw.obj
+.\Release\hud_servers.obj
+.\Release\hud_spectator.obj
+.\Release\hud_update.obj
+.\Release\in_camera.obj
+.\Release\input.obj
+.\Release\inputw32.obj
+.\Release\menu.obj
+.\Release\message.obj
+.\Release\parsemsg.obj
+.\Release\pm_debug.obj
+.\Release\pm_math.obj
+.\Release\pm_shared.obj
+.\Release\readbook.obj
+.\Release\sanity.obj
+.\Release\saytext.obj
+.\Release\status_icons.obj
+.\Release\statusbar.obj
+.\Release\studio_util.obj
+.\Release\text_message.obj
+.\Release\train.obj
+.\Release\tri.obj
+.\Release\util.obj
+.\Release\vgui_ClassMenu.obj
+.\Release\vgui_ConsolePanel.obj
+.\Release\vgui_ControlConfigPanel.obj
+.\Release\vgui_CustomObjects.obj
+.\Release\vgui_grid.obj
+.\Release\vgui_int.obj
+.\Release\vgui_listbox.obj
+.\Release\vgui_loadtga.obj
+.\Release\vgui_MOTDWindow.obj
+.\Release\vgui_SchemeManager.obj
+.\Release\vgui_ScorePanel.obj
+.\Release\vgui_scrollbar2.obj
+.\Release\vgui_ServerBrowser.obj
+.\Release\vgui_slider2.obj
+.\Release\vgui_TeamFortressViewport.obj
+.\Release\vgui_teammenu.obj
+.\Release\view.obj
+.\Release\voice_banmgr.obj
+.\Release\voice_status.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\guy\LOCALS~1\Temp\RSP22.tmp"
+Creating temporary file "C:\DOCUME~1\guy\LOCALS~1\Temp\RSP23.bat" with contents
+[
+@echo off
+copy .\Release\client.dll d:\sierra\half-life\cthulhudev\cl_dlls\client.dll
+]
+Creating command line "C:\DOCUME~1\guy\LOCALS~1\Temp\RSP23.bat"
+Compiling...
+readbook.cpp
+Linking...
+   Creating library .\Release/client.lib and object .\Release/client.exp
+<h3>Output Window</h3>
+Performing Custom Build Step on .\Release\client.dll
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+client.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
